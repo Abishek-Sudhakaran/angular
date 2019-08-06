@@ -10,6 +10,8 @@ import { ComponentinteractionComponent } from './componentinteraction/componenti
 import { EmployeeeListComponent } from './employeee-list/employeee-list.component';
 import { EmployeeeDetailComponent } from './employeee-detail/employeee-detail.component';
 import {HttpClientModule} from "@angular/common/http";
+import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
+import { ListComponent } from './list/list.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import {HttpClientModule} from "@angular/common/http";
     NgforComponent,
     ComponentinteractionComponent,
     EmployeeeListComponent,
-    EmployeeeDetailComponent
+    EmployeeeDetailComponent,
+    NoPageFoundComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
